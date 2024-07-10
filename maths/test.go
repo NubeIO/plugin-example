@@ -9,7 +9,6 @@ import (
 var name = "math-plugin"
 
 func main() {
-
 	factory := pluginlib.New(name)
 	factory.AddPallet("add", add.New)
 	factory.AddPallet("subtract", subtract.New)
